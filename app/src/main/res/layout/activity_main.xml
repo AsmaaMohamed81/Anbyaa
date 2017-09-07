@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.asmaa.anbyaa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+          >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="قصص الانبياء"
+                android:textColor="#a73c3c"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/share"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/shar" />
+
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:id="@+id/mail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/mail" />
+
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:id="@+id/out"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/out" />
+
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:id="@+id/in"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/in" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">قصص الانبياء</string>
+
+    <string-array name="index">
+        <item>ادم عليه السلام</item>
+        <item>إلياس عليه السلام</item>
+        <item>يحيى عليه السلام</item>
+        <item>إدريس عليه السلام</item>
+        <item>يونس عليه السلام</item>
+        <item>عيسي عليه السلام</item>
+        <item>يوشع بن نون عليه السلام</item>
+        <item>يعقوب عليه السلام</item>
+
+    </string-array>
+</resources>

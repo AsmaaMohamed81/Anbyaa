@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String text = "تطبيق قصص الانبياء";
-                String link = "https://play.google.com/store/apps/details?id=[com.asmaa.anbyaa]";
+                String link = "https://play.google.com/store/apps/details?id=com.makhtotat.makhtotnaa.makhtotat";
 
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.putExtra(Intent.EXTRA_TEXT, text + "\n" + link);
